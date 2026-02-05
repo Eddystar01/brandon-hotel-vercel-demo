@@ -1,0 +1,78 @@
+body {
+  font-family: Poppins, Arial, sans-serif;
+  margin: 0;
+  background: #f8fafc;
+  color: #0f172a;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+  background: #020617;
+  color: #fff;
+}
+
+.nav a {
+  color: #fff;
+  margin-left: 16px;
+  text-decoration: none;
+}
+
+.hero {
+  min-height: 80vh;
+  background:
+    linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+    url("https://images.unsplash.com/photo-1501117716987-c8e1ecb210f7?q=80&w=1600&auto=format&fit=crop")
+    center/cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-text {
+  margin: auto;
+  text-align: center;
+  color: #fff;
+}
+
+.section {
+  padding: 64px 24px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.card {
+  background: #fff;
+  padding: 24px;
+  border-radius: 14px;
+  margin-bottom: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,.05);
+}
+
+.btn {
+  display: inline-block;
+  background: #caa34d;
+  color: #000;
+  padding: 12px 22px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+.form input,
+.form select {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
+footer {
+  text-align: center;
+  padding: 24px;
+  background: #020617;
+  color: #cbd5f5;
+}
