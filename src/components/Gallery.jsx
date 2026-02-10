@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const images = [
   "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepa9GsfpCiOk39HaaGGApSUiCKMaLYvmc-UQ_jEEghPRjykoJfYNzq8Sk91dk3tEfM5MWFp9SWpUYmhmJQndvtjUrnGAM8nDpRCd0Ba87oe8ykoteNne7nYo8HxcECV9q2ZczVXrsOc0F51=s1360-w1360-h1020-rw",
-  "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepa9GsfpCiOk39HaaGGApSUiCKMaLYvmc-UQ_jEEghPRjykoJfYNzq8Sk91dk3tEfM5MWFp9SWpUYmhmJQndvtjUrnGAM8nDpRCd0Ba87oe8ykoteNne7nYo8HxcECV9q2ZczVXrsOc0F51=w141-h118-n-k-no-nu",
+  "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer4AuU-VZ4tm49Trz3vonxMbHRlLJowL8TYF1GGCg2iJe87ewEF2DWtSTq_pSNzA--hyeqmenNkZrs7IR-C9q_XG6z8XT44BltYdxOMYZIq1MJ0huuNqmB_pm473GRh9EqBXiSbU6C2t4Rr=s1360-w1360-h1020-rw",
   "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b",
   "https://images.unsplash.com/photo-1540541338287-41700207dee6",
   "https://images.unsplash.com/photo-1590490360182-c33d57733427",
