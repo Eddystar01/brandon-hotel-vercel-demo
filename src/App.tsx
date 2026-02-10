@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Rooms from "./components/Rooms";
 import Amenities from "./components/Amenities";
+import Gallery from "./components/Gallery";
 import Contact from "./components/Contact";
 
 export default function App() {
@@ -13,6 +14,7 @@ export default function App() {
       <About />
       <Rooms />
       <Amenities />
+      <Gallery />
       <Contact />
     </>
   );
