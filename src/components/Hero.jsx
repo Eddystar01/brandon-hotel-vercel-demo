@@ -17,11 +17,11 @@ export default function Hero() {
           transition={{ duration: 1 }}
           className="max-w-7xl mx-auto px-6"
         >
-          <h1 className="text-5xl md:text-6xl font-serif text-gold mb-6">
+          <h1 className="text-3xl sm:text-4xl md:text-6xl font-serif text-gold mb-6">
             Luxury. Comfort. Class.
           </h1>
 
-          <p className="max-w-xl text-lg text-gray-200 mb-8">
+          <p className="max-w-xl text-base sm:text-lg text-gray-200 mb-8">
             Experience world-class hospitality at Brandon Hotel & Apartment.
           </p>
 
