@@ -51,25 +51,25 @@ export default function Navbar() {
       </div>
 
       {/* Mobile Menu */}
-      {open && (
-        <div className="md:hidden flex justify-end px-6">
-            <div className="w-56 bg-black/95 border border-gold/20 rounded-sm py-6">
-            <ul className="flex flex-col gap-5 text-sm uppercase tracking-widest text-center">
-                {["home", "about", "rooms", "amenities", "gallery", "contact"].map(
-                (item) => (
-                    <li
-                    key={item}
-                    onClick={() => scrollToSection(item)}
-                    className="hover:text-gold cursor-pointer"
-                    >
-                    {item}
-                    </li>
-                )
-                )}
-            </ul>
-            </div>
+    {open && (
+    <div className="md:hidden absolute right-6 top-20 z-50">
+        <div className="w-52 bg-black/90 border border-gold/30 backdrop-blur-md shadow-2xl rounded-md py-5">
+        <ul className="flex flex-col gap-4 text-xs uppercase tracking-[0.25em] text-center">
+            {["home", "about", "rooms", "amenities", "gallery", "contact"].map(
+            (item) => (
+                <li
+                key={item}
+                onClick={() => scrollToSection(item)}
+                className="text-gray-200 hover:text-gold transition cursor-pointer"
+                >
+                {item}
+                </li>
+            )
+            )}
+        </ul>
         </div>
-      )}
+    </div>
+    )}
     </nav>
   );
 }
